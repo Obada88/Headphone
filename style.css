@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    overflow-x: hidden;
+    font-size: 68.68%;
+    scroll-behavior: smooth;
+    background-color: #000;
+}
+
+
+/***** Start Navbar *****/
+.nav-link{
+    color: #6c757d;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    transition: 0.5s ease-in-out;
+}
+.nav-link:hover{
+    color: #fff;
+}
+#Bgscroll{
+    max-width: 100%;
+}
+/***** End Navbar *****/
+
+
+
+/****** Start Home *****/
+
+.box-Home-img img{
+ max-width: 100%;
+ margin-top: 10rem;
+}
+.box-Home-content{
+    margin-top: 8rem;
+}
+.box-Home-content h2{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.box-Home-content h5{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 2.5rem;
+}
+
+.box-Home-content p{
+    color: #fff;
+    font-size: 1.1rem;
+   
+}
+.box-Home-content button{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #343a40;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fff;
+    margin-left: 0;
+}
+/****** End Home ******/
+
+/****** Start spec ****/
+
+.box-img-Spec{
+    max-width: 100%;
+}
+.box-Spec-specifications i{
+    color: #fff;
+    font-size: 1.3rem;
+    margin: 1rem;
+}
+.box-Spec-specifications h5 ,h6{
+    color: #343a40;
+
+}
+/****** End spec ****/
+
+
+/**** Start Case ****/
+
+.box-case-content{
+    margin-top: 5rem;
+}
+.box-case-content p{
+    color: #fff;
+    font-size: 1.1rem;
+}
+.box-case-content button{
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    background: #343a40;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+.box-case-content button:hover{
+    letter-spacing: 2px;
+}
+.box-img-case img{
+    max-width: 100%;
+}
+.box-case-discount{
+    margin-top: 5rem;
+}
+.box-case-discount p{
+    color: #fff;
+    font-size: 1.1rem;
+
+}
+.box-case-discount h5{
+    color: #343a40;
+}
+.box-case-discount button{
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1.2rem;
+    background: #343a40;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+.box-case-discount button:hover{
+    letter-spacing: 2px;
+}
+.box-img-case-discount{
+    max-width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+}
+/**** End Case ****/
+
+/**** Start Product ****/
+.box-img-prouct{
+    margin-top: 5rem;
+}
+.box-product-content{
+    background: #343a40;
+    margin: 1.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.box-product-content span{
+    color: #fff;
+    font-size: 1.2rem;
+}
+.price{
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.price i{
+    color: #fff;
+    font-size: 1.5rem;
+    background-color: #000;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/**** End Product *****/
+
+/*** Start Footer ****/
+.footer{
+    margin-top: 5rem;
+}
+.box-img-footer{
+    max-width: 100%;
+}
+.box-footer-product h3 {
+    color: #fff;
+}
+.box-footer-product h5{
+    color: #6c757d;
+    margin-top: 2rem;
+}
+.input{
+    margin-top: 1.5rem;
+    background: #343a40;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.input input{
+    padding: 0.3rem;
+    width: 200px;
+}
+.input .btn-Submit{
+    padding: 0.5rem;
+    background-color: #343a40;
+    color: #fff;
+    border: 2px solid #6c757d;
+    border-radius: 5px; 
+}
+.fa-brands{
+    margin: 1.5rem;
+    font-size: 1.3rem;
+    background-color: #343a40;
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.AllRights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*** End Footer ****/
+
+  
